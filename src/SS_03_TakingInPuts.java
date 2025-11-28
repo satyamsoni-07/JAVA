@@ -6,13 +6,15 @@ public class SS_03_TakingInPuts {
         //if we are writing (int) we can only use (normal numbering like from 0 to infinite)
 
         System.out.println("Taking Input From The User");
-        Scanner sc = new Scanner (System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.println("Enter number 1");
         int a = sc.nextInt();
         System.out.println("Enter number 2");
         int b = sc.nextInt();
-        int sum = a +b;
-        System.out.println("The sum of these number is");
+        System.out.println("Enter number 3");
+        int c = sc.nextInt();
+        int sum = a + b + c;
+        System.out.println("The sum of these numbers is:");
         System.out.println(sum);
 
 
