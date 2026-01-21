@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class Question1 {
 
-    public static void main(String[]args){
+    public static void main(String[] args) {
 
         System.out.println("Calculate your percentages");
         Scanner sc = new Scanner(System.in);
@@ -23,7 +23,7 @@ public class Question1 {
         System.out.println("Subject 5");
         int e = sc.nextInt();
 
-        int sum = a+b+c+d+e;
+        int sum = a + b + c + d + e;
         float percentage = (sum / 500.0f) * 100;
 
         System.out.println("Total Marks = " + sum);
