@@ -5,12 +5,9 @@ public class J2Variables {
         //FOR INT
         int age = 20;
         int year = 2005;
-        int rollno = 50;
-
 
         System.out.println("The Year Is "+year);
         System.out.println("The Age Is "+age);
-        System.out.println("The RollNo Is "+rollno);
 
 
         //FOR DOUBLE
